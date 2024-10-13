@@ -521,7 +521,7 @@ SWEP.Animations = {
 
     ["fire"] = {
         Source = "fire",
-        Mult = 2,
+        Mult = 1,
         EventTable = {
             { s = "arc9_eft_shared/weap_trigger_hammer.ogg", t = 0 },
         }
@@ -820,7 +820,7 @@ SWEP.Animations = {
         Source = "magcheck1",
         EventTable = rst_magcheck,
     },
-    ["inspect_empty2_0"] = {
+    ["inspect_empty2_1"] = {
         Source = "magcheck1_empty",
         EventTable = rst_magcheck,
     },
