@@ -725,3 +725,154 @@ ATT.Category = {"eft_1911_mag"}
 
 ARC9.LoadAttachment(ATT, "eft_mag_1911_11")
 
+///////////////////////////////////////      eft_m45_black     NOT MADE BY DARSU
+
+ATT = {}
+
+ATT.PrintName = "BLACK"
+ATT.CompactName = "BLACK"
+ATT.Icon = Material("entities/eft_1911_attachments/m45_black.png", "mips smooth")
+ATT.Description = [[Black color frame instead of FDE.
+
+Not presents in EFT, custom att.]]
+
+ATT.SortOrder = -90
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.SubMaterial1 = "models/weapons/arc9/darsu_eft/1911/weapon_colt_m45a1_1143x23_BLK"
+
+ATT.Category = {"eft_custom_1911"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot", "eft_custom_1911"},
+ 
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_m45_black")
+
+
+///////////////////////////////////////      eft_slide_1911_m45_blk
+
+ATT = {}
+
+ATT.ActivateElements = {"eft_slide_1911_m45"}
+
+ATT.PrintName = "M45A1 pistol slide black"
+ATT.CompactName = "M45 blk"
+ATT.Icon = Material("entities/eft_1911_attachments/m45a1_pistol_slide_blk.png", "mips smooth")
+ATT.Description = "A standard-issue slide for the M45A1 pistol, manufactured by Colt."
+
+ATT.SubMaterial17 = "models/weapons/arc9/darsu_eft/1911/reciever_m1911_colt_m45a1_std_BLK"
+
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
+ATT.HeatCapacityMult = 0.954
+
+ATT.HasSlide = true 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_1911_slide"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Front sight",
+        Category = "eft_m45_fs",
+        Pos = Vector(0, 2.5, -0.74),
+        Ang = Angle(0, -90, 0),
+    },
+    {
+        PrintName = "Rear sight",
+        Category = "eft_m45_rs",
+        Pos = Vector(0, -4.41, -0.74),
+        Ang = Angle(0, -90, 0),
+    },
+    {
+        PrintName = "Muzzle",
+        Category = "eft_1911_muzzlerec",
+        Pos = Vector(0, 3, 0),
+        Ang = Angle(0, -90, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_slide_1911_m45_blk")
+
+///////////////////////////////////////      eft_1911_pgrip_m45_blk
+
+ATT = {}
+
+ATT.ActivateElements = {"eft_1911_pgrip_m45"}
+
+ATT.PrintName = "M45A1 Mil-Tac GVT G10 black side grips"
+ATT.CompactName = "1911 G10 BLK"
+ATT.Icon = Material("entities/eft_1911_attachments/m45a1_miltac_gvt_g10_side_grips_blk.png", "mips smooth")
+ATT.Description = "The GVT G10 fiberglass grip panels for the Colt M45A1 pistol, manufactured by Mil-Tac."
+
+ATT.SubMaterial22 = "models/weapons/arc9/darsu_eft/1911/pistolgrip_m1911_colt_m45a1_std_BLK"
+
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+
+ATT.HasGrip = true
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_1911_pgrip", "eft_m45_pgrip"}
+
+ARC9.LoadAttachment(ATT, "eft_1911_pgrip_m45_blk")
+
+///////////////////////////////////////      eft_1911_slock_m45_blk
+
+ATT = {}
+
+ATT.ActivateElements = {"eft_1911_slock_m45"}
+
+ATT.PrintName = "M45A1 black slide lock"
+ATT.CompactName = "M45 blk lock"
+ATT.Icon = Material("entities/eft_1911_attachments/m45a1_slide_lock_blk.png", "mips smooth")
+ATT.Description = "A standard-issue slide lock lever for M45A1 pistols, manufactured by Colt."
+
+ATT.SubMaterial3 = "models/weapons/arc9/darsu_eft/1911/catch_m1911_colt_m45a1_std_BLK"
+
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.HasLock = true
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_1911_slock"}
+
+ARC9.LoadAttachment(ATT, "eft_1911_slock_m45_blk")
+
+///////////////////////////////////////      eft_1911_hammer_m45_blk
+
+ATT = {}
+
+ATT.ActivateElements = {"eft_1911_hammer_m45"}
+
+ATT.PrintName = "M45A1 black hammer"
+ATT.CompactName = "M45 blk hammer"
+ATT.Icon = Material("entities/eft_1911_attachments/m45a1_hammer_blk.png", "mips smooth")
+ATT.Description = "A standard-issue hammer for the M45A1 pistol, manufactured by Colt."
+
+ATT.SubMaterial6 = "models/weapons/arc9/darsu_eft/1911/hammer_m1911_colt_m45a1_std_BLK"
+
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.HasHammer = true
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_1911_hammer"}
+
+ARC9.LoadAttachment(ATT, "eft_1911_hammer_m45_blk")
