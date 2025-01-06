@@ -485,6 +485,7 @@ ATT.CustomPros = { Ergonomics = "+6" }
 ATT.RecoilMult = 0.76
 ATT.VisualRecoilMult = 0.76
 
+ATT.HasBufferTube = true 
 ATT.HasStock = true 
 
 ATT.Category = {"eft_mp5_stock"}
@@ -503,7 +504,7 @@ ATT.Description = "A standard retracable stock for old versions of MP5A3 submach
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.HasStock = true 
+ATT.HasBufferTube = true 
 
 ATT.Category = {"eft_mp5_stock"}
 
@@ -515,7 +516,8 @@ ATT.ToggleStats = {
         PrintName = "Retracted",
         RecoilMult = 0.77,
         VisualRecoilMult = 0.77,
-        ActivateElements = {"eft_mp5_stock_a3_unfolded"}
+        ActivateElements = {"eft_mp5_stock_a3_unfolded"},
+        HasStock = true
     },
     {
         PrintName = "Collapsed",
@@ -542,7 +544,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.EFTErgoAdd = 3
 ATT.CustomPros = { Ergonomics = "+3" }
 
-ATT.HasStock = true 
+ATT.HasBufferTube = true 
 
 ATT.Category = {"eft_mp5_stock"}
 
@@ -566,7 +568,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.EFTErgoAdd = 3
 ATT.CustomPros = { Ergonomics = "+3" }
 
-ATT.HasStock = true 
+ATT.HasBufferTube = true 
 
 ATT.Category = {"eft_mp5k_stock"}
 
