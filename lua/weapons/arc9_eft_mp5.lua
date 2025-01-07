@@ -69,7 +69,7 @@ SWEP.Ammo = "pistol"
 SWEP.Firemodes = {
     { Mode = -1, PoseParam = 3},
     { Mode = 1, RPM = 450, PoseParam = 1 },
-    { Mode = 3, PoseParam = 2},
+    { Mode = 3, PoseParam = 2, RunawayBurst = true},
 }
 
 SWEP.Slot = 2
