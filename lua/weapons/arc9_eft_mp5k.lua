@@ -7,10 +7,10 @@ SWEP.Base = "arc9_eft_mp5"
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Escape From Tarkov"
 
-SWEP.PrintName = "HK MP5K"
+SWEP.PrintName = ARC9:GetPhrase("eft_weapon_mp5k") or "HK MP5K"
 SWEP.ViewModel = "models/weapons/arc9/darsu_eft/c_mp5k.mdl"
 
-SWEP.Description = [[HK MP5K (K from the German word Kurz - "short") is a shorter version of MP5 SMG which was designed for close quarters combat use by clandestine operations and special services.]]
+SWEP.Description = "eft_weapon_mp5k_desc"
 
 SWEP.StandardPresets = false 
 

@@ -5,18 +5,18 @@ SWEP.Spawnable = true
 
 ------------------------- |||           Trivia            ||| -------------------------
 
-SWEP.PrintName = "HK MP5"
-SWEP.Description = [[HK MP5 submachinegun with Navy 3 Round Burst firing mechanism version, which features three-round cutoff. Widely acclaimed model of a submachinegun, primarily known as weapon of GSG9 and similar forces of the world, and famous through frequent appearance in movies and video games.]]
+SWEP.PrintName = ARC9:GetPhrase("eft_weapon_mp5") or "HK MP5"
+SWEP.Description = "eft_weapon_mp5_desc"
 
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_smg")
+SWEP.Class = "eft_class_weapon_smg"
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_smg")
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "Heckler & Koch",
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "9x19mm Parabellum",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"] = ARC9:GetPhrase("eft_trivia_act_gas"),
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_germ"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "1964"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_hk",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_9x19",
+    ["eft_trivia_act3"] = "eft_trivia_act_gas",
+    ["eft_trivia_country4"] = "eft_trivia_country_germ",
+    ["eft_trivia_year5"] = "1964"
 }
 
 SWEP.StandardPresets = {
@@ -184,11 +184,7 @@ SWEP.ShellSounds = ARC9EFT.Shells9mm
 SWEP.HookP_NameChange = function(self, name)
     local elements = self:GetElements()
 
-    if elements["eft_mp5_rec_sd"] then
-        return "HK MP5SD"
-    else
-        return "HK MP5"
-    end
+    if elements["eft_mp5_rec_sd"] then return ARC9:GetPhrase("eft_weapon_mp5sd") end
 end
 
 ------------------------- |||           Sounds            ||| -------------------------

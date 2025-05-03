@@ -5,18 +5,18 @@ SWEP.Spawnable = true
 
 ------------------------- |||           Trivia            ||| -------------------------
 
-SWEP.PrintName = "Colt M1911A1"
-SWEP.Description = [[Commonly known as just "1911", the M1911 is one of the most famous handguns on the planet. It went through both World Wars as the US Armys standard-issue, and despite being replaced in 1986, its further variations are still being used as the sidearm of different US Special Forces. The M1911A1 is the second generation of the original M1911 pistol. After World War I, the militarys Model 1911 went through various changes including a shorter trigger with frame cuts, improved iron sights, an arched mainspring housing, and a redesigned grip safety.]]
+SWEP.PrintName = ARC9:GetPhrase("eft_weapon_m1911a1") or "Colt M1911A1"
+SWEP.Description = "eft_weapon_m1911a1_desc"
 
-SWEP.Class = ARC9:GetPhrase("eft_class_weapon_pist")
+SWEP.Class = "eft_class_weapon_pist"
 SWEP.SubCategory = ARC9:GetPhrase("eft_subcat_pist")
 
 SWEP.Trivia = {
-    [ARC9:GetPhrase("eft_trivia_manuf") .. "1"] = "Colt Manufacturing Company",
-    [ARC9:GetPhrase("eft_trivia_cal") .. "2"] = "11.43x23mm ACP (.45 ACP)",
-    [ARC9:GetPhrase("eft_trivia_act") .. "3"]= ARC9:GetPhrase("eft_trivia_act_recoil"),
-    [ARC9:GetPhrase("eft_trivia_country") .. "4"] = ARC9:GetPhrase("eft_trivia_country_usa"),
-    [ARC9:GetPhrase("eft_trivia_year") .. "5"] = "1924"
+    ["eft_trivia_manuf1"] = "eft_trivia_manuf_colt",
+    ["eft_trivia_cal2"] = "eft_trivia_calibr_45acp",
+    ["eft_trivia_act3"]= "eft_trivia_act_recoil",
+    ["eft_trivia_country4"] = "eft_trivia_country_usa",
+    ["eft_trivia_year5"] = "1924"
 }
 
 SWEP.StandardPresets = false 
