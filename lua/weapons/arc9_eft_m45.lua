@@ -42,7 +42,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Category = {"eft_tactical_pistol"},
+        Category = {"eft_tactical_pistol", "eft_um3"},
         Pos = Vector(0, 1.9, 0.38),
         Ang = Angle(0, -90, 180),
     },
